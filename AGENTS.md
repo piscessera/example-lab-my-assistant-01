@@ -59,3 +59,7 @@ Do not start coding immediately. Ensure the following checklist is complete befo
 ### 3. Post-Coding & Review
 - **Immediate Delivery**: Upon completing the coding phase and local verification, **immediately** push the branch and create a Pull Request (PR). Do not wait for the user to ask "Where is the PR?".
 - **Manual Review**: **Do not auto-accept or merge the PR.** The user must strictly review the code and manually manage the approval and merge process.
+- **Exit Criteria**: Before ending a turn or turn series, verify:
+    1.  [ ] Did I update `main-tasks.md`?
+    2.  [ ] Did I save evidence to `docs/evidence/`?
+    3.  [ ] Did I push the code and create a PR?
