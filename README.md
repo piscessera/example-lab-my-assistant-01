@@ -2,9 +2,9 @@
 
 This repository serves as a workspace for AI-assisted development, enforcing strict protocols for quality, documentation, and verification.
 
-## 📜 Development Guidelines (AGENTS.md)
+## 📜 Development Guidelines (.agent/rules/AGENTS.md)
 
-All agents working in this repository must strictly adhere to the rules defined in `AGENTS.md`. Key pillars include:
+All agents working in this repository must strictly adhere to the rules defined in `.agent/rules/AGENTS.md`. Key pillars include:
 
 *   **Documentation First**: Tasks, analysis, and plans must be created *before* coding.
 *   **Synchronous Updates**: Documentation (task lists, logs) must be updated in real-time as work progresses.
@@ -27,5 +27,5 @@ To streamline the development process, use the following shortcodes to trigger s
 ## 📂 Repository Structure
 
 - `.agent/workflows/`: Definitions for the shortcode workflows.
-- `AGENTS.md`: The single source of truth for development rules.
+- `.agent/rules/AGENTS.md`: The single source of truth for development rules.
 - `[app-name]/`: Source code for individual applications (e.g., `app-nvidia-stock`).

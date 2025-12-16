@@ -1,7 +1,7 @@
 ---
 description: Execute the coding phase, verification, and delivery.
 ---
-1. Read `AGENTS.md` for the latest coding and testing standards.
+1. Read `.agent/rules/AGENTS.md` for the latest coding and testing standards.
 2. Read the `implementation-plan.md` and `main-tasks.md` for the current project.
 3. **Coding**: Implement the features as described in the plan.
 4. **Documentation**: Mark tasks as `[x]` in `main-tasks.md` *synchronously* as you complete them.
