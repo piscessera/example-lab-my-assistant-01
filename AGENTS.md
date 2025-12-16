@@ -22,12 +22,14 @@
     - **Implementation Plan**: A sequenced list of steps to execute the solution.
     - **Lessons Learned**: Insights gained during the process to prevent future issues.
     - **Retrospectives**: Periodic reviews of the workflow to identify improvements.
-- **Continuous Updates**: Documentation is a living artifact. After completing coding tasks, immediately update the relevant task lists, plans, and status trackers to reflect the current state.
+- **Continuous Updates**: Documentation is a living artifact. Updates must happen **synchronously** with work. If a task is done, check it off immediately. If a design decision changes, update the requirements immediately.
+- **Working Logs**: Maintain a `dev_log.md` or session log that records chronological actions, decisions, and outcomes for the current work session. This is different from a Retrospective (which is better for feelings/process improvement).
 - **Directory Structure**: Organize documentation within a `docs/` directory in the application folder (e.g., `app-name/docs/`). Recommended structure:
     - `tasks/`: Task tracking and checklists.
     - `analysis/`: Research, requirements, and design analysis.
     - `plans/`: Implementation plans and execution steps.
     - `retrospectives/`: Lessons learned and retrospective logs.
+    - `logs/`: Chronological development working logs.
     - `evidence/`: Screenshots, logs, and test results verifying functionality.
 
 ## Safety Rules
@@ -55,5 +57,5 @@ Do not start coding immediately. Ensure the following checklist is complete befo
 - **Step-by-Step Implementation**: Follow the plan created in the pre-development phase.
 
 ### 3. Post-Coding & Review
-- **Pull Request Creation**: After coding is complete, submit a Pull Request (PR) for the changes.
+- **Immediate Delivery**: Upon completing the coding phase and local verification, **immediately** push the branch and create a Pull Request (PR). Do not wait for the user to ask "Where is the PR?".
 - **Manual Review**: **Do not auto-accept or merge the PR.** The user must strictly review the code and manually manage the approval and merge process.
