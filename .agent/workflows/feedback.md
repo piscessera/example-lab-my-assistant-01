@@ -7,4 +7,4 @@ description: Solicit feedback from the user.
    - "Were there any misunderstandings or oversights?"
 2. Wait for the user's response.
 3. Save the feedback into a file `[app-name]/docs/feedback/feedback-[date].md` (create directory if needed).
-4. Analyze the feedback for potential improvements to `.agent/rules/AGENTS.md`.
+4. Analyze the feedback for potential improvements to `.agent/rules/agents.md`.
