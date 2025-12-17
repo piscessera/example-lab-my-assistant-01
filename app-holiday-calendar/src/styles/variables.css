@@ -1,0 +1,25 @@
+:root {
+  --bg-primary: #0f172a; /* Slate 900 */
+  --bg-secondary: #1e293b; /* Slate 800 */
+  --bg-active: #334155; /* Slate 700 */
+  --text-primary: #f8fafc; /* Slate 50 */
+  --text-secondary: #cbd5e1; /* Slate 300 */
+  --text-muted: #64748b; /* Slate 500 */
+  
+  --accent-color: #38bdf8; /* Sky 400 */
+  --accent-glow: rgba(56, 189, 248, 0.5);
+  
+  --holiday-bg: #451a03; /* Amber 950 approx */
+  --holiday-text: #fbbf24; /* Amber 400 */
+  --holiday-border: #f59e0b; /* Amber 500 */
+  
+  --border-color: #334155;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+}
